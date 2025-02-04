@@ -14,9 +14,5 @@ int main(void)
 	PORTB &= ~(1<<5); //desliga PB5
 	while(1)
 	{
-		PORTB |= 0b00100000; // aciona PB5
-		_delay_ms(500);
-		PORTB &= 0b11011111; // desaciona PB5
-		_delay_ms(500);
 	}
 }
