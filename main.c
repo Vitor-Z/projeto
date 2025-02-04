@@ -10,9 +10,7 @@
 #include <util/delay.h>
 int main(void)
 {
-	DDRB = (1<<5); //configura PB5 como saída
-	PORTB &= ~(1<<5); //desliga PB5
-	while(1)
+
 	{
 	}
 }
